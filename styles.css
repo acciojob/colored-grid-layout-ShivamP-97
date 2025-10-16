@@ -8,7 +8,9 @@ body {
 /* Grid container */
 #grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Will result in 242.5px if viewport is 970px */
+  width: 970px;
+  height: 620px;
+  grid-template-columns: repeat(4, 242.5px); /* Will result in 242.5px if viewport is 970px */
   grid-template-rows: repeat(5, 124px);
   gap: 5px;
   height: 100vh;
